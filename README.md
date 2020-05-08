@@ -1,6 +1,6 @@
 # python
 # Programa que determina o MDC entre lista de números
-#Autor: Professor Paiva
+#Autor: Paiva
 
 # Inicialização Listas a serem usadas
 numeros = []
@@ -20,10 +20,10 @@ def menor (x,y):            #Função menor de 2 números
        min = y
     return min
 
-
-def mdc (num1,num2):       #Função MDC de 2 números (Algorimo Euclides)
-   n1=maior(num1,num2)     #Pega o maior entre num1 e num2 
-   n2=menor(num1,num2)     #Pega o menor entre num1 e num2
+#Função MDC de 2 números (Algorimo Euclides)
+def mdc (num1,num2):       
+   n1=maior(num1,num2)      
+   n2=menor(num1,num2)     
    restodiv  = n1 % n2   
    while restodiv != 0:
          n1 = n2
